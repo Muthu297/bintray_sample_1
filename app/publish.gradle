@@ -2,7 +2,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'com.jfrog.bintray'
 
 version '1.0.0'
-group 'com.bintray'
+group 'com.bintray.example'
 
 publishing {
     publications {
@@ -43,7 +43,7 @@ bintray {
         publish = true
         publicDownloadNumbers = true
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/bintray/gradle-bintray-plugin.git'
+        vcsUrl = 'https://github.com/Muthu297/bintray_sample_1.git'
         dryRun = true
         version {
             name = this.version
